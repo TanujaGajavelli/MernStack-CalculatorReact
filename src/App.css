@@ -1,0 +1,37 @@
+.btn{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:5px
+}
+body{
+    background-image: url('back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cal{
+    margin:13% 30% ;
+    border: 2px solid rgb(228, 233, 79);
+    height:290px;
+    padding:20px 20px;
+    box-shadow: 0 0 100px rgb(181, 196, 66);
+    border-radius: 10px;
+}
+button{
+    height: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(223, 124, 54);
+}
+input{
+    height: 55px;
+    font-size: 30px;
+    width:99%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    text-align: end;
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(215, 101, 20);
+
+}
